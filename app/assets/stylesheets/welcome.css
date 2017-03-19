@@ -3,6 +3,25 @@
   They will automatically be included in application.css.
 */
 
-h1{
-  font-family: Grand Hotel;
+.intro{
+  font-family: Avenir;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 3px #000000;
+  font-size: 5em;
+  background-color: hsla(0,100%,100%,.33);
+  margin-top: 2em;
+}
+
+.image{
+  background-image: url(http://ppody.com/wp-content/uploads/2016/10/Confortable-Multi-Pendant-Lighting-Lovely-Pendant-Remodel-Ideas-with-Multi-Pendant-Lighting.jpg);
+}
+
+
+a{
+  font-family: Avenir;
+}
+
+.links a:visited{
+  color: white;
 }

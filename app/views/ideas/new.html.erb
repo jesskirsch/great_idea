@@ -1,5 +1,12 @@
+<nav>
+  <ul>
+  <li><%= link_to 'New Idea', new_idea_path %></li>
+  <li><%= link_to 'View All Ideas', ideas_path %></li>
+  <li><%= link_to 'Great Ideas', new_idea_path %></li>
+  <li><%= link_to 'Random Ideas', new_idea_path %></li>
+  <li><%= link_to 'Scraped Ideas', new_idea_path %></li>
+</nav>
+
 <h1>New Idea</h1>
 
 <%= render 'form' %>
-
-<%= link_to 'Back', ideas_path %>
