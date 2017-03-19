@@ -1,5 +1,7 @@
 class IdeasController < ApplicationController
 
+  before_action :authorize
+
   def index
     @ideas = Idea.all
   end
@@ -15,16 +17,16 @@ class IdeasController < ApplicationController
   def edit
     @idea = Idea.find(params[:id])
 
-    if @idea.update(idea_params)
-      redirect_to @idea
-    else
-      render 'edit'
-    end
+    # if @idea.update(idea_params)
+    #   redirect_to @idea
+    # else
+    #   render 'edit'
+    # end
   end
 
 
   def create
-    @idea = Idea.new(idea_params)
+    @idea = current_user.ideas.new(idea_params)
 
     if @idea.save
       redirect_to @idea
@@ -33,6 +35,15 @@ class IdeasController < ApplicationController
     end
   end
 
+  def update
+    @idea = Idea.find(params[:id])
+
+    if @idea.update(idea_params)
+      redirect_to @idea
+    else
+      render 'edit'
+    end
+  end
 
   def destroy
     @idea = Idea.find(params[:id])

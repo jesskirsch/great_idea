@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
+<<<<<<< HEAD
     <title>Great Idea</title>
+=======
+    <title>Great Ideas</title>
+>>>>>>> 3f787d5597ad702cee0d5e78d7f89452efbbb87d
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+<<<<<<< HEAD
+=======
+      <%= csrf_meta_tags %>
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Grand+Hotel">
+>>>>>>> 3f787d5597ad702cee0d5e78d7f89452efbbb87d
   </head>
 
   <body>
+    <% if current_user %>
+      Signed in as <%= current_user.name %> | <%= link_to "Logout", '/logout' %>
+    <% else %>
+      <%= link_to 'Login', '/login' %> | <%= link_to 'Sign Up', '/signup' %>
+    <% end %>
     <%= yield %>
   </body>
 </html>
