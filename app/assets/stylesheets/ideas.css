@@ -53,7 +53,7 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-    background-color: #555;
+    background-color: #232D51;
     color: white;
 }
 
@@ -69,6 +69,12 @@ li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.title-box a:visited{
+  color: rgb(17, 91, 101);
+  font-weight: 200;
+
 }
 
  .show{
@@ -96,6 +102,7 @@ form{
   background-color: rgb(245,245,245);
   text-align: center;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 input{
@@ -113,4 +120,14 @@ textarea{
 .show-links{
   text-align: center;
   font-weight: lighter;
+}
+
+select{
+  font-family: Avenir;
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  border: none;
+  outline: none;
 }

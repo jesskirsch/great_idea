@@ -6,7 +6,8 @@
 .intro{
   font-family: Krona One;
   text-align: center;
-  color: #747D7D;
+  /*color: #747D7D;*/
+  color: #232D51;
   font-size: 5em;
   margin-top: 1em;
   margin-bottom: 0;
@@ -29,6 +30,7 @@ button{
   outline: none;
   border-radius: 5px;
   width: 20%;
-  color: black;
+  color: white;
   font-size: 20px;
+  background-color: #232D51;
 }
