@@ -2,7 +2,7 @@ class User < ApplicationRecord
   has_many :ideas
   has_secure_password
 
-  def good_ideas
+  def great_ideas
     ideas.where(idea_type: 0)
   end
 
