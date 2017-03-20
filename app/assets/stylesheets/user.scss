@@ -2,6 +2,25 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 /* sidebar */
-h1{
+h1 .user{
   color: rgb(17, 91, 101);
+}
+
+div .left{
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 10px, 0;
+}
+
+div .right{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 10px, 0;
 }

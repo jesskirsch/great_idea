@@ -6,6 +6,10 @@ class IdeasController < ApplicationController
     @ideas = Idea.all
   end
 
+  def great
+    @great_ideas = Idea.where(category: "great")
+  end
+
   def show
     @idea = Idea.find(params[:id])
   end

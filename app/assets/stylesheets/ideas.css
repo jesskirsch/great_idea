@@ -29,7 +29,6 @@ body{
   margin-right: auto;
 }
 
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -69,6 +68,24 @@ li a:hover {
   border-radius: 5px;
 }
 
+ .show{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(245,245,245);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+
+div .display{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 300px;
+
+}
+
 .list{
   text-align: center;
 }
@@ -78,6 +95,7 @@ form{
   align-items: center;
   background-color: rgb(245,245,245);
   text-align: center;
+  padding-top: 10px;
 }
 
 input{

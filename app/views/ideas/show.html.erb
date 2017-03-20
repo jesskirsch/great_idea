@@ -8,6 +8,7 @@
 </nav>
 
 <h1>Viewing Idea</h1>
+<div class="show">
 <p class="list">
   <strong>Title:</strong><br>
   <%= @idea.title %>
@@ -17,6 +18,7 @@
   <strong>Text:</strong><br>
   <%= @idea.text %>
 </p>
+</div>
 
 <div class="show-links"><td><%= link_to 'Back', ideas_path %></td>
 <td><%= link_to 'Edit', edit_idea_path(@idea) %></td></div>
