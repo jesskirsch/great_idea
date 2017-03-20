@@ -1,5 +1,5 @@
-<h1>Signup!</h1>
-
+<h1>Sign Up Here!</h1>
+<body class = "background">
 <%= form_for :user, url: '/users' do |f| %>
 
   Name: <%= f.text_field :name %>
@@ -21,3 +21,4 @@
 <% end %>
 
 <%= link_to 'Back', root_path %>
+</body>

@@ -4,24 +4,28 @@
 */
 
 .intro{
-  font-family: Avenir;
+  font-family: Grand Hotel;
   text-align: center;
-  color: white;
-  text-shadow: 2px 3px #000000;
-  font-size: 5em;
-  background-color: hsla(0,100%,100%,.33);
-  margin-top: 2em;
+  color: #747D7D;
+  font-size: 7em;
+  /*background-color: hsla(0,100%,100%,.33);*/
+  margin-top: 1em;
 }
 
 .image{
-  background-image: url(http://ppody.com/wp-content/uploads/2016/10/Confortable-Multi-Pendant-Lighting-Lovely-Pendant-Remodel-Ideas-with-Multi-Pendant-Lighting.jpg);
+  background-image: url(http://www.slate.com/content/dam/slate/blogs/the_eye/2013/09/130910_EYE_E27All.jpg.CROP.original-original.jpg);
 }
 
+.links{
+  text-align: center;
+  font-size: 1.5em;
+}
 
 a{
   font-family: Avenir;
+  font-weight: bold;
 }
 
 .links a:visited{
-  color: white;
+  color: #747D7D;
 }
