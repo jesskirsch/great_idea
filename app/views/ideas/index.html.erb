@@ -4,30 +4,18 @@
   <li><%= link_to 'View All Ideas', ideas_path %></li>
   <li><%= link_to 'Great Ideas', new_idea_path %></li>
   <li><%= link_to 'Random Ideas', new_idea_path %></li>
-  <li><%= link_to 'Scraped Ideas', new_idea_path %></li>
+  <li><%= link_to 'Scrapped Ideas', new_idea_path %></li>
 </nav>
 
 
 <h1>View All Of Your Ideas</h1>
 
-<!-- <table> -->
-  <!-- <tr>
-    <th>Idea Title</th>
-    <th>Idea Text</th>
-  </tr> -->
 
+<div class="box">
+  <div class="display">
   <% @ideas.each do |idea| %>
-    <div class="display">
       <p class="title-box"><%= idea.title %><br>
-      <!-- <td class="text"><%= idea.text %></td> -->
       <%= link_to 'Show', idea_path(idea) %></p>
-      <!-- <td><%= link_to 'Edit', edit_idea_path(idea) %></td>
-      <td><%= link_to 'Destroy', idea_path(idea),
-          method: :delete,
-          data: { confirm: 'Are you sure?' } %></td> -->
-   </div>
   <% end %>
-<!-- </table> -->
-
-
-<!-- <%= link_to 'New idea', new_idea_path %>
+     </div>
+   </div>

@@ -4,12 +4,12 @@
 */
 
 .intro{
-  font-family: Grand Hotel;
+  font-family: Krona One;
   text-align: center;
   color: #747D7D;
-  font-size: 7em;
-  /*background-color: hsla(0,100%,100%,.33);*/
+  font-size: 5em;
   margin-top: 1em;
+  margin-bottom: 0;
 }
 
 .image{
@@ -21,11 +21,12 @@
   font-size: 1.5em;
 }
 
-a{
-  font-family: Avenir;
-  font-weight: bold;
-}
-
-.links a:visited{
-  color: #747D7D;
+button{
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width: 20%;
+  color: black;
+  font-size: 20px;
 }

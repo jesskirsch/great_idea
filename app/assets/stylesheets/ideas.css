@@ -5,11 +5,11 @@
 
 
 h1{
-  font-family: Grand Hotel;
-  color: rgb(17, 91, 101);
+  font-family: Krona One;
+  color: #232D51;
   text-align: center;
   margin-top: 40px;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 table{
@@ -66,6 +66,9 @@ li a:hover {
   font-weight: bold;
   margin: 10px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
  .show{
@@ -78,12 +81,9 @@ li a:hover {
   margin-bottom: 15px;
 }
 
-div .display{
+.display{
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
-  width: 300px;
-
 }
 
 .list{

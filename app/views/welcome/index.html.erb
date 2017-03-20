@@ -1,4 +1,11 @@
+
 <h1 class = "intro">Great Ideas</h1>
 <body class = "image">
-<div class = "links"><%= link_to 'My Ideas', controller: 'ideas' %></div>
+<div class = "links">
+  <!-- <%= link_to 'My Ideas', controller: 'ideas' %> -->
+  <%= link_to '<button type="button">Begin</button>'.html_safe, controller: 'ideas' %>
+</div>
+
+
+
 </body>
