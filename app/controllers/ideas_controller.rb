@@ -52,6 +52,17 @@ class IdeasController < ApplicationController
     redirect_to ideas_path
   end
 
+  def great_ideas
+    @ideas = current_user.great_ideas
+  end
+
+  def random_ideas
+    @ideas = current_user.random_ideas
+  end
+
+  def scrapped_ideas
+    @ideas = current_user.scrapped_ideas
+  end
   private
     def idea_params
       params.require(:idea).permit(:title, :text, :idea_type)
