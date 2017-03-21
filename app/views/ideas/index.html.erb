@@ -1,6 +1,6 @@
 <nav>
   <ul>
-    <li><%= link_to 'Home', '../#index' %></li>
+    <li><%= link_to 'Home', root_path %></li>
     <li><%= link_to 'New Idea', new_idea_path %></li>
     <li><%= link_to 'View All Ideas', ideas_path %></li>
     <li><%= link_to 'Great Ideas', great_ideas_path %></li>
@@ -19,3 +19,9 @@
   <% end %>
      </div>
    </div>
+
+   <div class="backToTopArrow" id="back-to-top">
+   <a class="scroll-link" data-scroll-to-selector="#content" data-scroll-to-edge="top" data-scroll-time="500" aria-label="back to top" href="#"><svg enable-background="new 0 0 128 49.246" height="12px" viewBox="0 0 128 49.246" width="26px" xmlns="http://www.w3.org/2000/svg">
+   <path d="M125.478 38.722l-57.264-38.055-.028-.019-.049-.032c-1.843-1.227-4.39-1.244-6.253-.049l-.056.036-.017.011-59.272 38.059c-6.156 3.952-.065 13.627 6.177 9.62l56.204-36.089 54.231 36.039c6.159 4.092 12.447-5.454 6.327-9.521z"></path>
+   </svg>
+   </a></div>
