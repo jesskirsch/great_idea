@@ -3,7 +3,7 @@ class IdeasController < ApplicationController
   before_action :authorize
 
   def index
-    @ideas = Idea.all
+    @ideas = current_user.ideas
   end
 
   def show
