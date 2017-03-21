@@ -135,7 +135,7 @@ select{
 }
 
 .backToTopArrow{
-  position: relative;
+  /*position: relative;*/
   top: 100vh;
   float: right;
   color:  #232D51;
