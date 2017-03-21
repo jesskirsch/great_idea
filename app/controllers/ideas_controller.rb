@@ -63,6 +63,7 @@ class IdeasController < ApplicationController
   def scrapped_ideas
     @ideas = current_user.scrapped_ideas
   end
+
   private
     def idea_params
       params.require(:idea).permit(:title, :text, :idea_type)
